@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat&family=Praise&family=Shalimar&family=Water+Brush&display=swap');
+
+
+body
+{
+    background-color: hsl(212, 45%, 89%);
+    margin: 0px;
+}
+
+#main_bloc
+{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 220px;
+    max-height: 800px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, p, li
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+p
+{
+    font-size: 0.8em;
+}
+
+.qr
+{
+    height: 220px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.qr img
+{
+    transition: transform .5s ease;
+}
+
+.qr img:hover
+{
+    transform: scale(1.5);
+}
+
+
+
+.css-dynamic-sidebar {
+    overflow: hidden;
+    position: relative;
+    height: 10em;
+}
+ 
+nav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    position: absolute;    
+    top: -113px;
+    border-radius: 0px 0px 30px 0px;
+    padding: 1em;
+    background-color: #2c7dfa;
+    transform: translateY(1em);
+    transition: 0.4s transform;
+}
+
+nav:hover,
+nav:focus-within {
+    transform: translateY(100%);
+}
+
+nav p
+{
+    color:white;
+    font-size: 0.8em;
+}
+ 
